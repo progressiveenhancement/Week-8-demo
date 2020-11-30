@@ -1,0 +1,294 @@
+img {
+    width: 100%;
+  }
+
+h2, h1, p {
+    font-family: sans-serif;
+    color: white;
+    padding: 15px;
+    }
+    
+
+.hero
+{
+    width: 100%;
+    min-height: 300px; 
+    float: left;
+    background-color: red;
+    clear: both;
+}
+
+.navbar
+{
+    width: 90%;
+    min-height: 100px; 
+    background-color: yellow;
+    margin: auto;
+    margin-top: 25px;
+}
+
+
+.logo
+{
+    float: left;
+    width: 20%; 
+}
+
+.basket
+{
+    float: right;
+    width: 5%; 
+}
+
+.list
+{
+    float: right;
+    width: 40%; 
+    Background-color: coral;
+}
+
+.calltoaction
+{
+    clear: both;
+    width: 80%;
+    min-height: 100px; 
+    background-color: green;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}  
+
+.calltoaction h1{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+
+.order{
+    background-color: cyan;
+    margin: auto;
+    width: 40%;
+}
+
+.order h2{
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.menu
+{
+    width: 100%;
+    min-height: 300px;  
+    background-color: orange;
+    float: left;
+    clear: both;
+}
+
+.menucontainer
+{
+    width: 80%;
+    min-height: 200px; 
+    background-color: green;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: table;
+}  
+
+.menucolumn
+{
+width: 33.33%;
+min-height: 100px; 
+background-color: cyan;
+float: left;
+display: table-cell;
+}
+
+@media only screen and (max-width: 600px) {
+    .menucolumn { 
+      display: block;
+      width: 100%;
+    }
+  }
+
+.menucolumn h2, h1, p {
+font-family: sans-serif;
+color: white;
+padding: 10px;
+}
+
+
+
+.staffcontainer
+{
+    width: 80%;
+    min-height: 200px; 
+    background-color: blue;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: table;
+}  
+
+.staffcolumnimage
+{
+width: 33.33%;
+background-color: red;
+float: left;
+display: table-cell;
+margin-bottom: 30px;
+clear: both;
+}
+
+@media only screen and (max-width: 600px) {
+    .staffcolumnimage { 
+      display: block;
+      width: 100%;
+    }
+  }
+
+
+
+.staffcolumntext
+{
+width: 64.66%;
+min-height: 100px; 
+background-color: orange;
+float: left;
+display: table-cell;
+padding-left: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+    .staffcolumntext { 
+      display: block;
+      width: 100%;
+    }
+  }
+
+.staffcolumntext h2, h1, p {
+font-family: sans-serif;
+color: white;
+padding: 10px;
+}
+
+
+
+.reviews
+{
+    width: 100%;
+    min-height: 300px; 
+    background-color: yellow;
+    float: left;
+}
+
+
+.aboutus
+{
+    width: 100%;
+    min-height: 300px; 
+    background-color: green;
+    float: left;
+}
+
+
+.ingredients
+{
+    width: 100%;
+    min-height: 300px; 
+    background-color: cyan;
+    float: left;
+}
+
+
+.faq
+{
+    width: 100%;
+    min-height: 300px; 
+    background-color: blue;
+    float: left;
+}
+
+.faqcontainer
+{
+    width: 80%;
+    min-height: 200px; 
+    background-color: violet;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}  
+
+.faqcontainer h2, h1, p {
+    font-family: sans-serif;
+    color: white;
+    padding: 10px;
+    }
+
+.faqcontainer p {
+    font-family: sans-serif;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    }
+
+.hide {
+    display: none;
+    }
+      
+.question:hover + .hide {
+    display: block;
+    background-color: red;
+    }
+
+.question:hover h2{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    }
+
+
+
+
+
+
+
+
+
+
+.workwithus
+{
+    width: 100%;
+    min-height: 300px; 
+    background-color: violet;
+    float: left;
+}
+
+.workwithuscontainer
+{
+    width: 80%;
+    min-height: 200px; 
+    background-color: green;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}  
+
+
+
+.footer
+{
+    width: 100%;
+    min-height: 100px; 
+    background-color: grey;
+    float: left;
+}
+
